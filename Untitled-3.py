@@ -15,7 +15,7 @@ for i in range(entrevistados):
     while True:
         try: 
             idade=int(input("Digite sua idade: "))
-            if 0>idade & idade<120:
+            if 0<idade<120:
                 break
             else:
                 print("Digite uma idade entre 1 e 120 anos")
