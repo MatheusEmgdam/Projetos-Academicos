@@ -13,16 +13,28 @@
     Realize testes com 10 entrevistados para validar o funcionamento do programa.
     Compartilhe o projeto completo no seu repositório Github, informe o link do repositório no ambiente virtual.
 """
-excelente = 0 == "1"
-ruim = 0 == "1"
+#Biblioteca
+import os
+
+#Variáveis e funções
+def clear():
+     os.system('cls' if os.name == 'nt' else 'clear')
+
+excelente = 0 
+ruim = 0
+
 for i in range(10):
+    #INPUT
     nome=input("Digite o seu nome: ")
-    idade=input(int("Digite sua idade: "))
-    feedback=input("Como foi o seu atendimento?\n1-Excelente\n2-Bom\n3-Ruim")
+    idade=int(input("Digite sua idade: "))
+    print("Como foi seu atendimento?\n")
+    feedback=input("1-Excelente\n2-Bom\n3-Ruim\n")
+    clear()
+    #Avaliação do Feedback
     match feedback.lower():
         case "1" | "excelente":
             excelente+=1
         case "3" | "ruim":
             ruim+=1
-print("Feedback de Avaliações:\n Excelentes:{excelente}\nRuins:{ruins}")
-
+#OUTPUT
+print(f"Feedback de Avaliações:\n Excelentes:{excelente}\nRuins:{ruim}")
