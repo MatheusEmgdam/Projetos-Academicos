@@ -12,11 +12,11 @@ Este projeto funciona com base no ciclo **Entrada → Processamento → Saída**
 O programa tem como parte de sua configuração a variável {entrevistados} que determina a quantidade de vezes que o programa irá se repetir.
 
 O programa pede como entrada, respectivamente, pelos: 
-O nome da pessoa;
-A idade da pessoa,de 1 a 120 anos de idade;
-A sua opinião sobre o atendimento em 3 categorias:
-1-Excelente
-2-Bom
-3-Ruim;
+\nO nome da pessoa;
+\nA idade da pessoa,de 1 a 120 anos de idade;
+\nA sua opinião sobre o atendimento em 3 categorias:
+\n1-Excelente
+\n2-Bom
+\n3-Ruim;
 
 Após isso, o programa irá contabilizar a quantidade de opiniões Excelentes e Ruim e exibir
